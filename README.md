@@ -1,10 +1,13 @@
-# Проект - Доставка еды "Голодный волк".
+# Микросервисный проект - Доставка еды "Голодный волк".
 
 [![Java CI](https://github.com/PerpetuumEbner/job4j_dish/actions/workflows/maven.yml/badge.svg)](https://github.com/PerpetuumEbner/job4j_dish/actions/workflows/maven.yml)
 
 ## Общее описание:
 
-Заказ блюд на дом.
+Заказ блюд на дом. Блок блюда.
+* [Блок заказов](https://github.com/PerpetuumEbner/job4j_order)
+* [Блок кухня](https://github.com/PerpetuumEbner/job4j_kitchen)
+* [Блок уведомления](https://github.com/PerpetuumEbner/job4j_notification)
 
 ***
 
@@ -23,6 +26,7 @@
 [![PostgresSQL](https://img.shields.io/badge/PostgreSQL-15-blue)](https://www.postgresql.org/)
 [![Lombok](https://img.shields.io/badge/Lombok-1.18.26-red)](https://projectlombok.org/)
 [![Liquibase](https://img.shields.io/badge/Liquibase-4.17.2-orange)](https://www.liquibase.org/)
+[![Apache Kafka](https://img.shields.io/badge/Kafka-3.4.0-%20%23000000)](https://kafka.apache.org/)
 
 ***
 
@@ -30,6 +34,4 @@
 
 * создать базу данных `dishes`
 * `maven install`
-* `java -jar target/job4j_dish-0.0.1-SNAPSHOT.jar`
-
-***
+* `java -jar target/dish-0.0.1-SNAPSHOT.jar`
